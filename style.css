@@ -3,48 +3,35 @@
 img {
   align-self: center;
 }
-
 a{
 
   align-self: center;
 
 }
-
-
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
-
-
 /* phone */
 body {
   background-color: purple;
 }
-
-
-
 h1 {
   font-family: "SF Distant Galaxy";
   color:pink;
 }
-
 a{
   color:green;
 }
-
 nav{
   display: flex;
   flex-direction:column;
 }
-
 .center{
   display:flex;
   justify-content: center;
   flex-direction: column;
 }
-
-
 /* computer */
 @media screen and (min-width: 600px) {
   .nav{
@@ -53,18 +40,12 @@ nav{
     flex-direction:row;
   }
   .center{
-
 flex-direction:row;
-
   }
 
   nav{
-
 flex-direction:row;
 justify-content: space-around;
 
   }
-
-
-
 }
